@@ -45,6 +45,17 @@ body {
     font-size: 50px;
 }
 
+.overviewStyleCredits {
+    color: #EDF5E1;
+    font-family: Teko, sans-serif, Arial;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.textDivCredits {
+    text-align: center;
+}
+
 #colorListHeading {
     font-size: 15px;
     color: black;
@@ -157,4 +168,14 @@ body {
 
 .menuListContainer {
     flex-grow: 0.99;
+}
+
+.projectsStyle {
+    color: #05386B;
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
 }
