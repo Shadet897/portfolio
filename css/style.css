@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, sans-serif;
-    background-color: #FAF9F6;
+    background-color: #5CDB95;
 }
 
 .nameDiv {
@@ -10,34 +10,38 @@ body {
 
 #nameStyle {
     text-align: center;
-    color: #FAF9F6;
-    border: 1px solid #1B1212;
+    color: #05386B;
+    border: 1px solid #5CDB95;
     border-radius: 20px;
     padding: 20px;
-    background-color: #1B1212;
+    background-color: #8EE4AF;
     display: inline-block;
     max-width: 100%;
 }
 
 .textDiv {
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
 }
 
 .textStyle {
-    background-color: #008ff5;
-    border: 1px solid #008ff5;
-    border-radius: 20px;
+    color: #05386B;
     display: inline-block;
-    padding: 20px;
     max-width: 100%;
     text-align: center;
     font-family: Arial, sans-serif;
+    font-size: 20px;
 }
 
 .overviewDiv {
-    margin-top: 30px;
+    margin-top: 25px;
     text-align: center;
+}
+
+.overviewStyle {
+    color: #EDF5E1;
+    font-family: Teko, sans-serif, Arial;
+    font-size: 50px;
 }
 
 #colorListHeading {
@@ -69,4 +73,34 @@ body {
     color: #FAF9F6;
     border: none;
     cursor: pointer;
+}
+
+.underlineDivLarge {
+    border: 1px solid #5CDB95;
+    border-radius: 10px;
+    background-color: #8EE4AF;
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: inline-block;
+}
+
+.underlineDivMedium {
+    border: 1px solid #5CDB95;
+    border-radius: 10px;
+    background-color: #8EE4AF;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: inline-block;
+}
+
+.underlineDivSmall {
+    border: 1px solid #5CDB95;
+    border-radius: 10px;
+    background-color: #8EE4AF;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: inline-block;
 }
