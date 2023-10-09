@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     background-color: #5CDB95;
+    margin: 0;
 }
 
 .nameDiv {
@@ -103,4 +104,18 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     display: inline-block;
+}
+
+.navigationBarDiv {
+    display: grid;
+    background-color: #05386B;
+    height: 50px;
+}
+
+.menuText {
+    color: #EDF5E1;
+    text-align: center;
+    font-family: Teko, sans-serif, Arial;
+    font-size: 30px;
+    margin-top: 5px;
 }
