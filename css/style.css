@@ -107,9 +107,15 @@ body {
 }
 
 .navigationBarDiv {
-    display: grid;
+    display: flex;
     background-color: #05386B;
+    align-items: center;
     height: 50px;
+}
+
+.menuTextDiv {
+    align-items: center;
+    padding-left: 20px;
 }
 
 .menuText {
@@ -117,5 +123,38 @@ body {
     text-align: center;
     font-family: Teko, sans-serif, Arial;
     font-size: 30px;
-    margin-top: 5px;
+    margin: 0;
+}
+
+.menuUnderlineDivSmall {
+    border: 1px solid #17176c;
+    border-radius: 10px;
+    background-color: #17176c;
+    height: 40px;
+    width: 10px;
+    margin-left: 10px;
+}
+
+.menuListStyle {
+    list-style-type: none;
+}
+
+.menuListItems {
+    color: #EDF5E1;
+    text-decoration: none;
+    font-family: Teko, sans-serif, Arial;
+    font-size: 24px;
+}
+
+#myGithubText {
+    font-family: Teko, sans-serif, Arial;
+    float: right;
+    color: #EDF5E1;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.menuListContainer {
+    flex-grow: 0.99;
 }
