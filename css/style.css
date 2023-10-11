@@ -163,7 +163,17 @@ body {
     color: #EDF5E1;
     text-decoration: none;
     font-size: 24px;
+    background: linear-gradient(to right, royalblue , #EDF5E1 50%) , royalblue 50% ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
 
+#myGithubText:hover {
+    background-position: 0 100%;
 }
 
 .menuListContainer {

@@ -15,3 +15,10 @@ function changeBackgroundColorToBlue() {
         element.style.color = "white";
     }
 }
+
+function expandMenuAnimDiv() {
+    let elements = document.getElementsByClassName("menuAnimDiv");
+    for (var i = 0; i < elements.length; i++) {
+
+    }
+}
